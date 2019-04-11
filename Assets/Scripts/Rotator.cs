@@ -5,7 +5,7 @@ namespace ColorSwitch
     public class Rotator : MonoBehaviour
     {
 
-        public float speed = 100f;
+        public float speed = 500f;
 
         // Update is called once per frame
         void Update()

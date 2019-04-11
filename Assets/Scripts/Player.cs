@@ -52,6 +52,7 @@ namespace ColorSwitch
             {
                 Debug.Log("GAME OVER!");
                 onGameOver.Invoke();
+                // Destroy(col.gameObject);
             }
         }
 

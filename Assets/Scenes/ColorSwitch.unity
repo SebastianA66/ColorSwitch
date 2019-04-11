@@ -398,6 +398,11 @@ Prefab:
       propertyPath: m_Name
       value: Circle
       objectReference: {fileID: 0}
+    - target: {fileID: 114849291794251086, guid: 2c369fc7dea438c4797da9d67fec4cb4,
+        type: 2}
+      propertyPath: speed
+      value: -160
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c369fc7dea438c4797da9d67fec4cb4, type: 2}
   m_IsPrefabAsset: 0
@@ -901,8 +906,8 @@ MonoBehaviour:
   onGameOver:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: ResetGame
+      - m_Target: {fileID: 11500000, guid: 71bbc1e836bce6b4bb41aac250aefc7e, type: 3}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
